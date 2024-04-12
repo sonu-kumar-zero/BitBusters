@@ -1,8 +1,20 @@
 import React from 'react'
 
-const Navbar = () => {
+
+const Navbar = () => {  
   return (
-    <div>Navbar</div>
+    <div>
+        <div>
+            <img src="" alt="" />
+            <div>
+                <span className='bg-red-100'>Medi</span>
+                <span>Connect</span>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
   )
 }
 

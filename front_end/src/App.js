@@ -1,7 +1,13 @@
+import Navbar from "./components/common/Navbar";
+
 function App() {
   return (
     <>
-      <div className="bg-blue-500">hello world</div>
+      <div className="">
+        <div className="bg-red-100">Home Page</div>
+        <Navbar />
+      </div>
+      <div className=""></div>
     </>
   );
 }
