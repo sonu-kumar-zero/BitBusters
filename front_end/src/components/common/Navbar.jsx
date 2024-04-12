@@ -1,21 +1,18 @@
-import React from 'react'
+import React from "react";
 
-
-const Navbar = () => {  
+const Navbar = () => {
   return (
     <div>
-        <div>
-            <img src="" alt="" />
-            <div>
-                <span className='bg-red-100'>Medi</span>
-                <span>Connect</span>
-            </div>
+      <div>
+        <img src="" alt="" />
+        <div className="anton__font">
+          <span className="text-[#1b1a55]">Medi</span>
+          <span>Connect</span>
         </div>
-        <div>
-
-        </div>
+      </div>
+      <div></div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
