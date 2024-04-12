@@ -1,15 +1,16 @@
 import Navbar from "./components/common/Navbar";
 import Carousal from "./components/homePage/Carousal";
+import SpecialistHorizontalBar from "./components/homePage/SpecialistHorizontalBar";
 
 function App() {
   return (
     <>
       <div className="">
-        {/* <div className="bg-red-100">Home Page</div> */}
         <Navbar />
         <Carousal />
+        <SpecialistHorizontalBar />
       </div>
-      <div className=""></div>
+      <div className="h-20"></div>
     </>
   );
 }

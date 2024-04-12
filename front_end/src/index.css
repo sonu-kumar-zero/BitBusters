@@ -11,6 +11,9 @@
   box-sizing: border-box;
 }
 
+.remove_scroll_bar::-webkit-scrollbar {
+  display: none;
+}
 
 .anton__font {
   font-family: "Anton";
