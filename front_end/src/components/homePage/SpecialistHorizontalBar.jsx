@@ -17,7 +17,7 @@ const SpecialistHorizontalBar = () => {
   ];
 
   return (
-    <div className="px-[140px] flex flex-col gap-2">
+    <div className="px-[140px] py-24 flex flex-col gap-2">
       <div className="font-bold text-3xl">Top Searched Specialist</div>
       <div className="flex gap-10 py-5 overflow-y-scroll remove_scroll_bar">
         {doctorCardList.map((doc, index) => {
