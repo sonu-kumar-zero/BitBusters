@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="">
-        <div className="bg-red-100">Home Page</div>
+        {/* <div className="bg-red-100">Home Page</div> */}
         <Navbar />
         <Carousal />
       </div>
