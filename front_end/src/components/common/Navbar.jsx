@@ -11,7 +11,7 @@ const Navbar = () => {
           <span className="text-[#5b59ea] text-[30px]">Connect</span>
         </div>
       </div>
-      <div className="flex gap-[50px] items-center text-lg font-semibold">
+      <div className="flex gap-10 items-center text-lg font-semibold">
         <button className="hover:text-[#5b59ea]">Help & Security</button>
         <button className="hover:text-[#5b59ea]">Contact</button>
         <button className="hover:text-[#5b59ea]">Login</button>
